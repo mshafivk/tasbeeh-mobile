@@ -1,0 +1,43 @@
+{
+  "name": "tasbeehMobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "serve": "react-native run-android"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "firebase": "^4.3.0",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.47.1",
+    "react-native-circular-progress": "0.0.8",
+    "react-native-fbsdk": "^0.6.1",
+    "react-native-linear-gradient": "^2.2.0",
+    "react-native-sound": "^0.10.1",
+    "react-native-vector-icons": "^4.3.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "19.0.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "1.9.1",
+    "flow-bin": "^0.47.0",
+    "jest": "19.0.2",
+    "loadash": "0.0.1",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
